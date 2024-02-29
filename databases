@@ -1,0 +1,19 @@
+
+Sharding
+
+Sharding or horizontal partitioning is a technique to divide the rows of a table into different tables called partitions / shards.
+We use a key to create the paritions based on the values for the key. E.g. a table is shared based on Region.
+
+Challenges :
+Joins across shards can be expensive, query needs to goto multiple shards pull join data and join data across the network. 
+Difficult to have dynamic number of shards : use consistent hashing
+
+In case a shard has too much data , we can use hierarchical sharding i.e. shard having too much data can have sub shards   
+
+Index could be created within shards (based on some different attribute which wasnt used for sharding )
+
+
+End goal is read and write both are fast. We can have master slave architectite , master handles write and slaves keep polling the master. 
+Read can be handled by slaves.
+
+Alternatives: no sql, indexing   

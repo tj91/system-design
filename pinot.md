@@ -8,6 +8,11 @@ Apache Pinot includes the following:
 - Scaling up and out with **no upper bound**.
 - **Consistent performance** based on the size of your cluster and an expected query per second (QPS) threshold.
 
-Whats is Pinot?
+Whats is Pinot? </p> https://www.youtube.com/watch?v=_lqdfq2c9cQ
 
-https://www.youtube.com/watch?v=_lqdfq2c9cQ
+### Ingestion
+
+**Batch** : Pinot supports Spark, Flink, Hadoop etc for batch ingestion
+**Streaming** : Pinot has out-of-the-box real-time ingestion support for Kafka, Kinesis etc
+
+

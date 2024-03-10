@@ -20,5 +20,5 @@ Whats is Pinot? </p> https://www.youtube.com/watch?v=_lqdfq2c9cQ
 
 Following image shows requirements for real time analytics, and how tools like Presto etc are used for internal dash boarding
 <p align="center">
-<img src="https://github.com/tj91/system-design/assets/1821801/baeff1b7-d723-49d2-afc3-47cdb2958f7a" width="200" height="266">
+<img src="https://github.com/tj91/system-design/assets/1821801/baeff1b7-d723-49d2-afc3-47cdb2958f7a" width="600" height="798">
 </p>

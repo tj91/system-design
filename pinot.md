@@ -16,3 +16,5 @@ Whats is Pinot? </p> https://www.youtube.com/watch?v=_lqdfq2c9cQ
 **Streaming** : Pinot has out-of-the-box real-time ingestion support for Kafka, Kinesis etc
 
 
+
+![real_time_analytics](https://github.com/tj91/system-design/assets/1821801/baeff1b7-d723-49d2-afc3-47cdb2958f7a)
